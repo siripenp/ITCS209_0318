@@ -1,4 +1,4 @@
-package exercise;
+package example;
 
 public class Method {
 	// 2.1 create class variable (can be accessed by any method in this class)

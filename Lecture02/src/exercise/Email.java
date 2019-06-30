@@ -1,3 +1,5 @@
+// Author: Siripen
+
 package exercise;
 
 import java.util.Scanner;

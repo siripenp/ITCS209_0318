@@ -1,6 +1,7 @@
 package example;
 
-//Author: Siripen
+//Ref: Java Concepts, 7th International Edition, by Cay Horstmann 2013
+
 
 import java.util.ArrayList;
 

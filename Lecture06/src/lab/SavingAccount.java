@@ -1,4 +1,4 @@
-package example2;
+package lab;
 
 public class SavingAccount extends BankAccount {
 	private double interestRate; 

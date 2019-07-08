@@ -1,4 +1,4 @@
-package solution;
+package sol;
 
 
 public class Triangle extends Shape {

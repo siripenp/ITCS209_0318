@@ -1,4 +1,4 @@
-package solution;
+package sol;
 
 /*
  * The Rectangle class, subclass of Shape

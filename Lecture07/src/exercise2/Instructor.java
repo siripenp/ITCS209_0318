@@ -10,12 +10,7 @@ public class Instructor extends Person {
 		this.salary = salary;
 	}
 	
-//	public void printInfo() {
-//		System.out.println("Name: " + super.getFullname());
-//		System.out.println("Staff ID: " + this.staffId);
-//		System.out.println("Salary: " + this.salary);
-//	}
-	
+	// Override printInfo() method
 	public void printInfo() {
 		super.printInfo();
 		System.out.println("Staff ID: " + this.staffId);

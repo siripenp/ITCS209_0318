@@ -1,4 +1,4 @@
-package exercise1;
+package exercise3;
 
 public class Instructor extends Person {
 	private int staffId;
@@ -11,7 +11,15 @@ public class Instructor extends Person {
 	}
 	
 	// Override printInfo() method
-	// YOUR CODE GOES HERE
+	public void printInfo() {
+		super.printInfo();
+		System.out.println("Staff ID: " + this.staffId);
+		System.out.println("Salary: " + this.salary);
+	}
+	
+	public String toString() {
+		return super.toString() + "\nStaff ID: " + staffId + "\nSalary: " + salary;
+	}
 	
 	public int getStaffId() {
 		return this.staffId;
@@ -22,6 +30,4 @@ public class Instructor extends Person {
 		salary = salary + raise;
 		return salary;
 	}
-	
-	
 }

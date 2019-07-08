@@ -1,4 +1,4 @@
-package exercise1;
+package exercise3;
 
 public class Person {
 	private String fullname;
@@ -15,6 +15,7 @@ public class Person {
 		return this.fullname;
 	}
 	
-	// Implement toString() method
-	// YOUR CODE GOES HERE
+	public String toString() {
+		return "Name: " + this.fullname;
+	}
 }

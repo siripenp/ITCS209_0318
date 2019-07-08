@@ -1,4 +1,4 @@
-package exercise1;
+package exercise3;
 
 public class Student extends Person {
 	
@@ -12,7 +12,16 @@ public class Student extends Person {
 	}
 	
 	// Override printInfo() method
-	// YOUR CODE GOES HERE
+	public void printInfo() {
+		super.printInfo();
+		System.out.println("Student ID: " + this.studentId);
+		System.out.println("Credit: " + this.credit);
+	}
+	
+	// Override toString() method
+	public String toString() {
+		return super.toString() + "\nStudent ID: " + studentId + "\nCredit: " + credit;
+	}
 	
 	public int getStudentId() {
 		return this.studentId;

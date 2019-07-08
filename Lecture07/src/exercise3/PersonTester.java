@@ -1,4 +1,4 @@
-package exercise1;
+package exercise3;
 
 import java.util.ArrayList;
 
@@ -14,17 +14,13 @@ public class PersonTester {
 		Instructor c = new Instructor("Phil", 222, 30000);
 		
 		// Add each object into the list
-		friendList.add(a);
-		friendList.add(b);
-		friendList.add(c);
+		friendList.add(a); friendList.add(b); friendList.add(c);
 		
-		// Q1: How to print fullname of each person in the friendList
-		// YOUR CODE GOES HERE
-		
-		// Q2: Count how many people in the friend list are Student
-		// and print fullname and student id of any Student in the list
-		// YOUR CODE GOES HERE
-
+		// print information of each person in the friendList
+		for(Person p: friendList) {
+			System.out.println(p);
+			System.out.println("---");
+		}
 	}
 
 }
